@@ -1,0 +1,62 @@
+body{
+    background-image: url(background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+body > div{
+    color: white;
+    background-color: #000000B3;
+    border-radius: 25px;
+    padding: 5.5% 8% 10%;
+    margin:2% 18.5% 2%;
+}
+
+header, main {   
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+img{width: 25%; height: 25%;}
+
+h1 {padding: 0.5%;}
+
+img, h1, nav{ 
+    color: #00dd00;
+    margin: auto;
+    text-align: center;
+}
+
+nav{
+    background: #00dd00;
+    padding: 1%;
+}
+
+img, span{display: block;}
+
+input, h2{display: inline-block;}
+
+h2{margin: 3% 0 0 0;}
+
+.arrow::before{content:"\21A6";}
+
+div > div{
+    height:30px;
+    border-radius: 5px;
+}
+
+.media{
+    width:35%;
+    background: #f5b453;
+}
+
+.scarica{
+    width:15%;
+    background: #be4141;
+}
+
+.carica{
+    width:60%;
+    background: #00dd00;
+}
